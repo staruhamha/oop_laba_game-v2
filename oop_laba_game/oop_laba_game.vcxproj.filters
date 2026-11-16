@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Unit">
+      <UniqueIdentifier>{1b766c52-68b0-4f71-84ab-cc827e4b258d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Attributes">
+      <UniqueIdentifier>{1435d10e-9407-4483-98b0-a1a9c667c22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Units">
+      <UniqueIdentifier>{ea586b82-54e7-4951-abb1-52b2a9b4a119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factories">
+      <UniqueIdentifier>{b9a09c3c-3c16-446e-aaf8-e07145d45112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Field">
+      <UniqueIdentifier>{8abdd7aa-029a-4e15-8343-31c8912c913e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Terrain">
+      <UniqueIdentifier>{a1568c4f-3d01-4ea3-917f-9641551fc6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\NeutralObjects">
+      <UniqueIdentifier>{13e7cfe8-124d-4d81-995e-487ea5609c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Base">
+      <UniqueIdentifier>{c3b3f3ac-cbda-4082-bdec-5c61e57049ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tests">
+      <UniqueIdentifier>{660de659-f1da-4ea6-893f-ee167a4fab85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controller">
+      <UniqueIdentifier>{ad1aa2be-b12d-4d90-8b93-f3375e1845da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="oop_laba_game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFieldIterator.cpp">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTypes.cpp">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Factories.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Units.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTypeInfo.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTypeInfo.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTypes.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainProxy.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageStrategy.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthRestoreStrategy.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBoostStrategy.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceStrategy.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="NeutralObjects.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMap.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Исходные файлы\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitEvent.cpp">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="ManaBoost.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ManaBoostStrategy.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField.h">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFieldIterator.h">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTypes.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTypes.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainProxy.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="NeutralObjects.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IInteractionStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthRestoreStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBoostStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="IObservable.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMap.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Исходные файлы\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitEvent.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="ManaBoost.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ManaBoostStrategy.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>
